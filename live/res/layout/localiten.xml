@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/common_card_background"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/hotelname"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="酒店名称"
+            android:textColor="#C00"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hotelname"
+            android:paddingLeft="8dp"
+            android:text="电话:"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/telenumber"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hotelname"
+            android:layout_toRightOf="@id/tele"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/hotelname"
+            android:layout_marginRight="6dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="20dp"
+            android:text="8000"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/price0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/hotelname"
+            android:layout_toLeftOf="@id/price"
+            android:paddingRight="55dp"
+            android:text="人均消费:"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/hotelname"
+            android:paddingRight="14dp"
+            android:text="元"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/hotelname"
+            android:layout_alignParentRight="true"
+            android:paddingRight="96dp"
+            android:text="评级:"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/rate0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="16dp"
+            android:paddingTop="14dp"
+            android:src="@drawable/xing0" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tele"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:text="地址"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tele"
+            android:layout_marginRight="6dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="8dp"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/distance2"
+            android:layout_toLeftOf="@id/distance2"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/map_btn"
+            android:layout_width="320dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@id/distance"
+            android:background="@drawable/btn_3"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="查看地图线路"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

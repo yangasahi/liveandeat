@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="48dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar_shang"
+  			android:gravity="center_vertical"  >  
+      		<ImageButton 
+      		    android:id="@+id/nearButton"
+			    android:layout_width="80dp" 
+        		android:layout_height="30dp"
+        		android:layout_alignParentRight="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="5dp"
+				android:background="@drawable/tab_btn"
+			    />   
+			     <TextView 
+			        android:id="@+id/textView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			      android:layout_alignParentRight="true" 
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="17dp"
+        		android:text="列表模式"
+        		android:textColor="#fff"
+        		android:textSize="13sp"
+			        />   
+			    <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="吃住无忧"
+        		android:layout_centerInParent="true"
+        		android:textSize="18sp"		
+				android:textColor="#ffffff" /> 
+			 
+			
+		</RelativeLayout>
+     <com.baidu.mapapi.MapView 
+         android:id="@+id/bmapView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:clickable="true" />
+</LinearLayout>

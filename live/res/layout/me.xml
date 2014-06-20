@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainweixin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#faebd7"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/title_bar_shang"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/locateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="个人中心"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/login_button"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tab_btn" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="登 录"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/regist_button"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/tab_btn" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="注 册"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/title"
+        android:background="#cccccc" >
+
+        <ImageView
+            android:id="@+id/add_friend"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/user_wde" />
+
+        <TextView
+            android:id="@+id/nicheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/add_friend"
+            android:text="未登录"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/favar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/add_friend"
+            android:background="@drawable/sc" />
+
+       
+
+    
+
+        <ImageButton
+            android:id="@+id/comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/favar"
+            android:background="@drawable/comm" />
+
+       
+       
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/myLayout"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+         <com.baidu.mapapi.MapView 
+         android:id="@+id/bmapView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:clickable="true" />
+    </LinearLayout>
+
+</RelativeLayout>

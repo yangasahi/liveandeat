@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/about"
+        android:orientation="vertical" >
+        
+       <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/title_bar_shang"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/locateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于我们"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/tab_back"
+            android:scaleType="matrix" />
+
+     
+    </RelativeLayout>
+	<TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        对于酷爱旅游或常需出差的人来说,在陌生的城市里最快找到安身之所和美食之地,不得不说是件头等大事。"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+	<TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       为了减少大家在旅途因食宿问题而带来的困扰,“吃住无忧”诞生啦!她以现有的旅行推荐指南应用为基础,重点向用户推荐当前所在城市的旅店和餐馆,具体功能如下:"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        1.搜索附近的旅店和餐馆;"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        2.查看附近旅店和餐馆的基本信息和口碑评价;"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        3.用户反馈亲身体验情况;"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        真切希望我们的“小忧”能在旅途中为您带来最便捷的帮助,同时也恳请大家多多指出不足和反馈BUG情况，再次感谢您对我们的支持！"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+  <!--   <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        设计、编码：杨旭 QQ:328837083"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        美工：高思伟 QQ:106353237"
+        android:textColor="#ffffff"
+        android:textSize="18sp" /> -->
+<!-- <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        指导教师：王岩，黄岚"
+        android:textColor="#ffffff"
+        android:textSize="18sp" /> -->
+  <!--   <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        欢迎交流指导！"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+ -->       
+</LinearLayout>
+
+
+
+
+
+
+
+
+ 

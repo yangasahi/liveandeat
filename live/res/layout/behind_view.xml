@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desktop_list_item" >
+
+   
+        <LinearLayout
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/texthome"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_group_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp"
+                android:text="主页"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/rest"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="附近餐厅"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hotel"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="附近宾馆"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recomm"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="每日推荐"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textMyPage"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_group_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp"
+                android:text="个人中心"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textVip"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="我的主页"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            
+        </LinearLayout>
+    <LinearLayout
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:id="@+id/textSet"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_group_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp"
+                android:text="设定"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textSetting"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="偏好设置"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textHelp"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="帮助"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textReview"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="关于我们"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textQuestion"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/desktop_list_item_bg"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="意见反馈"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select">        
+     <item>住哪篇(宾馆,酒店,旅馆)</item>            
+     <item>吃啥篇(饭店,餐厅,食堂)</item>       
+  </string-array>
+   <string-array name="select2">   
+       <item>一公里</item>       
+     <item>三公里</item>            
+     <item>五公里</item>
+     <item>十公里</item>       
+  </string-array>
+   <string-array name="select3">        
+     <item>附近宾馆</item>            
+     <item>附近餐馆</item>    
+  </string-array>
+</resources>

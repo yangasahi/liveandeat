@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijing"
+     >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="提示：由于本软件目前使用的是国外云存储服务器，因此读取速度可能会稍慢，请谅解！"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        />
+
+    <Button 
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="开始使用"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:background="#4D90F0"
+        />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="46dp" >
+
+        <LinearLayout
+            android:id="@+id/main_dialog_layout"
+            android:layout_width="120dp"
+            android:layout_height="178dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/title_function_bg"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/b1"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <!-- 默认选中b1 -->
+
+                <RadioButton
+                    android:id="@+id/b1"
+                    android:textSize="11sp"
+                    android:text="一公里" />
+
+                <RadioButton
+                    android:id="@+id/b3"
+                    android:textSize="11sp"
+                    android:text="三公里" />
+
+                <RadioButton
+                    android:id="@+id/b5"
+                    android:textSize="11sp"
+                    android:text="五公里" />
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
